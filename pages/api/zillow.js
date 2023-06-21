@@ -11,7 +11,7 @@ export default async function handler(req, res) {
 
   const params = {
     api_key: api_key,
-    url: encodeURIComponent(listing_url),
+    url: listing_url,
   };
 
   try {
